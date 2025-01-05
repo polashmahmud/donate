@@ -29,11 +29,11 @@ defineProps({
                 </div>
                 <div class="flex items-center space-x-2">
                     <div class="text-sm font-semibold text-gray-600 dark:text-gray-400">
-                        Start Date: {{ project.start_date }}
+                        Start Date: {{ project.start_date.bd_date }}
                     </div>
                     <div class="h-1 w-1 bg-gray-800 rounded-full"></div>
                     <div class="text-sm font-semibold text-gray-600 dark:text-gray-400">
-                        End Date: {{ project.end_date }}
+                        End Date: {{ project.end_date.bd_date }}
                     </div>
                 </div>
             </div>

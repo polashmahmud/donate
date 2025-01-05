@@ -19,8 +19,8 @@ class ProjectResource extends JsonResource
             'goal_amount' => $this->goal_amount,
             'raised_amount' => $this->raised_amount,
             'status' => $this->status,
-            'start_date' => $this->start_date,
-            'end_date' => $this->end_date,
+            'start_date' => DateTimeResource::make($this->start_date),
+            'end_date' => DateTimeResource::make($this->end_date),
             'created_by' => $this->created_by,
         ];
     }
