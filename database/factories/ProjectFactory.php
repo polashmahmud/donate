@@ -18,6 +18,7 @@ class ProjectFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence,
+            'slug' => $this->faker->slug,
             'description' => $this->faker->paragraph(30),
             'goal_amount' => $this->faker->randomFloat(2, 100, 1000),
             'raised_amount' => $this->faker->randomFloat(2, 0, 100),

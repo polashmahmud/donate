@@ -14,7 +14,7 @@ defineProps({
             </h2>
 
             <p class="text-sm text-gray-600 dark:text-gray-400">
-                {{ project.description }}
+                {{ project.sort_description }}
             </p>
 
             <div class="flex justify-between items-center">
