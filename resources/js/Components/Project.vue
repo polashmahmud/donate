@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-    <Link href="#" class="overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800 block">
+    <Link :href="route('projects.show', project.slug)" class="overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800 block">
         <div class="p-6 text-gray-900 dark:text-gray-100 space-y-3">
             <h2 class="text-lg font-semibold leading-tight">
                 {{ project.title }}

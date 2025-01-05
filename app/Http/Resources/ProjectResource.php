@@ -14,6 +14,7 @@ class ProjectResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title,
+            'slug' => $this->slug,
             'sort_description' => substr($this->description, 0, 320),
             'description' => $this->description,
             'goal_amount' => $this->goal_amount,
